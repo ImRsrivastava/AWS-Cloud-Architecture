@@ -2,6 +2,7 @@
 
 ## 📌 Project Overview
 This project demonstrates the implementation of a **Highly Available VPC Architecture** in AWS, focusing on networking components such as VPC, Subnets, Route Tables, Internet Gateway, NAT Gateway, NACLs, and Security Groups.
+
 The architecture is deployed across **multiple Availability Zones (AZs)** to ensure high availability and fault tolerance.
 ---
 
