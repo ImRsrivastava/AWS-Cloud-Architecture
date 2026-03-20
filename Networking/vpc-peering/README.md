@@ -155,11 +155,9 @@ Dev EC2 → Bastion (Ephemeral Ports 1024–65535)
 
 ## 📷 Architecture Diagram
 <img src="./diagrams/VPC-Peering-Architecture.png" />
----
 
 ## 🧑‍💻 Author
 **Rishabh Srivastava**
-
 ---
 
 ## ⭐ If you found this useful
