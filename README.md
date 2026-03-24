@@ -3,8 +3,6 @@
 ![AWS](https://img.shields.io/badge/AWS-Cloud%20Architecture-orange?logo=amazon-aws&logoColor=white)
 ![Status](https://img.shields.io/badge/Project-In%20Progress-yellow)
 ![Focus](https://img.shields.io/badge/Focus-Learning%20%26%20Hands--On-blue)
-![Repo Size](https://img.shields.io/github/repo-size/your-username/your-repo-name)
-![Last Commit](https://img.shields.io/github/last-commit/your-username/your-repo-name)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
@@ -24,27 +22,28 @@ The goal of this repo is to:
 ---
 
 ## 🧱 Repository Structure
+```
 AWS-Cloud-Project/
 │
 ├── Networking/
 │   ├── vpc-ha-3tier/
 │   │   ├── diagrams/
 │   │   └── README.md
-|   ├── vpc-peering/
+│   ├── vpc-peering/
 │   │   ├── diagrams/
 │   │   └── README.md
 │
-├── security/ # IAM, KMS, WAF, Shield, etc.
-├── compute/ # EC2, Auto Scaling, etc.
-├── load-balancing/ # ALB, NLB, etc.
-├── containers/ # ECS, EKS, Docker
-├── serverless/ # Lambda, API Gateway
-├── devops/ # CI/CD, CodePipeline, etc.
-├── storage/ # S3, EBS, EFS
-├── monitoring/ # CloudWatch, CloudTrail
+├── security/        # IAM, KMS, WAF, Shield, etc.
+├── compute/         # EC2, Auto Scaling, etc.
+├── load-balancing/  # ALB, NLB, etc.
+├── containers/      # ECS, EKS, Docker
+├── serverless/      # Lambda, API Gateway
+├── devops/          # CI/CD, CodePipeline, etc.
+├── storage/         # S3, EBS, EFS
+├── monitoring/      # CloudWatch, CloudTrail
 │
 └── README.md
-
+```
 ---
 
 ## 🚀 Current Progress
