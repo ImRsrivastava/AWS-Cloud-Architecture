@@ -47,26 +47,31 @@ Created two route tables:
 
 ## 🔐 Security Groups
 ### 5. Bastion Security Group (Demo-Bastion-SG)
+```
 * Purpose: SSH access to private instances via bastion
 | Type | Port | Source    |
 | ---- | ---- | --------- |
 | SSH  | 22   | 0.0.0.0/0 |
+```
 ---
 
 ### 6. ALB Security Group (Demo-ALB-SG)
+```
 * Purpose: Allow public traffic to Load Balancer
 | Type | Port | Source    |
 | ---- | ---- | --------- |
 | HTTP | 80   | 0.0.0.0/0 |
+```
 ---
 
 ### 7. EC2 Private Security Group (Demo-EC2-Private-SG)
+```
 * Purpose: Secure backend instances
 | Type | Port | Source          |
 | ---- | ---- | --------------- |
 | HTTP | 80   | Demo-ALB-SG     |
 | SSH  | 22   | Demo-Bastion-SG |
-
+```
 👉 Ensures:
 * Only ALB can send traffic to EC2
 * Only bastion can SSH into EC2
