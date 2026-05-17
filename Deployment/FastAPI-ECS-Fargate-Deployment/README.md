@@ -1,4 +1,4 @@
-# FastAPI Deployment on AWS ECS Fargate with ALB, Target Group, and RDS PostgreSQL
+# FastAPI Project Deployment on AWS ECS Fargate with ALB, Target Group and RDS PostgreSQL
 
 ## Project Overview
 
@@ -23,6 +23,7 @@ This project helped me learn:
 ---
 
 # Architecture Overview
+```
 Internet
 ↓
 Application Load Balancer (Public Subnets)
@@ -34,6 +35,7 @@ ECS Fargate Tasks (Private Subnets)
 FastAPI Container
 ↓
 AWS RDS PostgreSQL
+```
 ---
 
 ## 🏗️ Architecture
@@ -388,6 +390,7 @@ Actual running container created from Task Definition.
 
 ### Service
 Maintains desired number of running tasks.
+
 ---
 
 # Important Learnings
@@ -422,6 +425,7 @@ Port: 8000
 Protocol: HTTP
 ```
 must correctly reach the application.
+
 ---
 
 # Final Working Flow
