@@ -122,15 +122,5 @@ This project helped in understanding:
 
 ---
 
-# Future Improvements
-
-* Add Application Load Balancer (ALB)
-* Add Terraform Infrastructure as Code
-* Add Monitoring & Logging
-* Add Blue/Green Deployment
-* Add Automated Testing Stage
-
----
-
 # Author
 Rishabh Srivastava
